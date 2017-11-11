@@ -19,7 +19,7 @@ var todoList = {
       }
     }
   },
-  // more comments
+  // more comments!
   addTodo: function(todoText) {
     this.todos.push({
       todoText: todoText,
