@@ -54,3 +54,8 @@ function changeTodo(position, newValue) {
 1. .displayTodos should show .todoText
 2. .displayTodos should tell you if .todos is empty
 3. .displayTodos should show .completed
+
+## Version 6 - Thinking in Code
+
+1. toggleAll: If everything's true, make everything false.
+2. toggleAll: Otherwise, make everything true.
