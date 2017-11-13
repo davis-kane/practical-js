@@ -14,20 +14,20 @@
 
 ## Version 2 - Functions
 1. It should have a function to display todos
-```
+``` JavaScript
 function displayTodos() {
       console.log('My todos: ', todos);
 }
 ```
 2. It should have a function to add todos.
-```
+``` JavaScript
 function addTodo(todo) {
   todos.push(todo);
   displayTodos();
 }
 ```
 3. It should have a function to change todos.
-```
+``` JavaScript
 function changeTodo(position, newValue) {
     todos[position] = newValue;
     displayTodos();
@@ -58,4 +58,12 @@ function changeTodo(position, newValue) {
 ## Version 6 - Thinking in Code
 
 1. toggleAll: If everything's true, make everything false.
+  - If every item is checked, then make them all unchecked.
 2. toggleAll: Otherwise, make everything true.
+  - In every other situation, make everything true.
+
+## Version 7 - HTML and the DOM
+
+1. There should be a "Display Todos" button and a "Toggle All" button in the app
+2. Clicking "Display Todos" should run todoList.displayTodos.
+3. Clicking "Toggle All" should run todoList.toggleAll
