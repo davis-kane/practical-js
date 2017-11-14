@@ -67,3 +67,10 @@ function changeTodo(position, newValue) {
 1. There should be a "Display Todos" button and a "Toggle All" button in the app
 2. Clicking "Display Todos" should run todoList.displayTodos.
 3. Clicking "Toggle All" should run todoList.toggleAll
+
+## Version 8 - Getting Data from Inputs
+
+1. It should have working controls for .addTodo
+2. It should have working controls for .changeTodo
+3. It should have working controls for .deleteTodo
+1. It should have working controls for .toggleCompleted
