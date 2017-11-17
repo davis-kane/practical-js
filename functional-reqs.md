@@ -73,4 +73,11 @@ function changeTodo(position, newValue) {
 1. It should have working controls for .addTodo
 2. It should have working controls for .changeTodo
 3. It should have working controls for .deleteTodo
-1. It should have working controls for .toggleCompleted
+4. There should be a button for toggling todos
+5. It should have working controls for .toggleCompleted
+
+## Version 9 - Escape from the Console
+
+1. There should be an li element for every todo
+2. Each li element should contain .todoText
+3. Each li element should show .completed
